@@ -45,3 +45,52 @@ SQL
 
 16- Apague todos os arquivos que terminem em .txt .
 
+### History da minha resolução
+
+  722  mkdir unix_tests
+  723  cd unix_tests/
+  724  touch trybe.txt
+  725  cp trybe.txt trybe_backup.txt
+  726  mv trybe.txt trybe1.txt
+  727  mkdir backup
+  728  mv trybe_backup.txt backup
+  729  ls
+  730  mkdir backup2
+  731  cd backup2
+  732  pwd
+  733  cd ..
+  734  cd backup
+  735  mv trybe_backup.txt /home/graziely/Documents/unix_tests/backup2
+  736  ls
+  737  cd ..
+  738  rm -r backup
+  739  ls
+  740  mv backup2 backup
+  741  ls
+  742  pwd
+  743  cd backup
+  744  pwd
+  745  ls
+  746  cd ..
+  747  rm -r backup
+  748  ls
+  749  clear
+  750  ls
+  751  head -n5 skills.txt
+  752  tail -n4 skills.txt
+  753  rm *txt
+  754  ls
+  755  history
+
+
+### Skills desenvolvidas
+Utilizar o bash.
+Entender como a internet funciona, seus principais conceitos e terminologias.
+Utilizar de forma confortável o Git e o Github.
+Criar documentos HTML estilizados com CSS.
+Utilizar o JavaScript para adicionar comportamento às páginas web.
+Utilizar recursos de HTML e CSS Avançado.
+Trabalhar com JavaScript ES6.
+Criar códigos assíncronos em JavaScript.
+Escrever testes unitários.
+
