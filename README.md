@@ -8,16 +8,16 @@ Contém todas as atividades desenvolvidas por mim durante minha tragetória na T
 
 # Fundamentos do Desenvolvimento Web⏳
 
-### Bloco 1: Unix, Bash e Shell Script 
+### [Bloco 1: Unix, Bash e Shell](https://github.com/grazyjacob/grazy-trybe-exercicios/tree/main/01-Fundamentos-do-Desenvolvimento-Web/B1-Unix-Bash#sum%C3%A1rio)✅
  ✅1.3 - Fundamentos do Desenvolvimento Web               
  ✅1.3 - Introdução - Unix & Shell                  
- ✅1.3 - Unix & Bash - Parte 1                                                                                             
- ✅1.4 - Unix & Bash - Parte 2
+ ✅1.3 - [Unix & Bash - Parte 1](https://github.com/grazyjacob/grazy-trybe-exercicios/tree/main/01-Fundamentos-do-Desenvolvimento-Web/B1-Unix-Bash#parte-i---cria%C3%A7%C3%A3o-de-arquivos-e-diret%C3%B3rios)                                                                                             
+ ✅1.4 - [Unix & Bash - Parte 2](https://github.com/grazyjacob/grazy-trybe-exercicios/blob/main/01-Fundamentos-do-Desenvolvimento-Web/B1-Unix-Bash/README.md#parte-ii---manipula%C3%A7%C3%A3o--busca)
  
 ### Bloco 2: Git, GitHub e Internet⏳
  ✅2.1 - Git & GitHub - O que é e para que serve  
- ⏳2.2 - Git & GitHub - Entendendo os comandos  
- 2.3 - Internet - Entendendo como ela funciona  
+ ✅2.2 - Git & GitHub - Entendendo os comandos  
+ ⏳2.3 - Internet - Entendendo como ela funciona  
 
 ### Bloco 3: Introdução à HTML e CSS
  3.1 - Introdução - HTML & CSS  
