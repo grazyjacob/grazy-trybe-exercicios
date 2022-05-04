@@ -46,7 +46,7 @@ SQL
 16- Apague todos os arquivos que terminem em .txt .
 
 ### History da minha resolução
-
+```
   722  mkdir unix_tests  
   723  cd unix_tests/  
   724  touch trybe.txt  
@@ -81,16 +81,25 @@ SQL
   753  rm *txt  
   754  ls  
   755  history  
-
+```
 
 ### Skills desenvolvidas
+
 Utilizar o bash.
+
 Entender como a internet funciona, seus principais conceitos e terminologias.
+
 Utilizar de forma confortável o Git e o Github.
+
 Criar documentos HTML estilizados com CSS.
+
 Utilizar o JavaScript para adicionar comportamento às páginas web.
+
 Utilizar recursos de HTML e CSS Avançado.
+
 Trabalhar com JavaScript ES6.
+
 Criar códigos assíncronos em JavaScript.
+
 Escrever testes unitários.
 
