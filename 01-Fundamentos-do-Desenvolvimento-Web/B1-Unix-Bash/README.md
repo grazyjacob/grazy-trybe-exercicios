@@ -161,3 +161,6 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
   989  history
 
 ```
+
+ ### Meu comentário sobre o bloco.
+ Foi bem produtivo e gostoso aprender essas coisas que apesar de simples serão usadas no meu dia a dia de programação. É como o próprio nome já diz fundamento do desenvolvimento Web, devido a isso é visivel a importancia de ter essas bases bem fixadas. 04-05-22 Graziely Jacob
