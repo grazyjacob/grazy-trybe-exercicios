@@ -31,6 +31,19 @@
 
 ### Exercícios
 
+ Um resumo básico do que foi pedido nos exercicios
+
+1 - crie um diretório
+2 - crie um arquivo 
+3 - copie o arquivo
+4 - renomeie o arquivo
+5 - mova um dos arquivos de um diretório a outro
+6 - Apague um arquivo
+7 - renomeie uma pasta
+8 - limpe o terminal
+9 - mostre as 5 primeiras linhas de um arquivo .txt 
+10 - mostre as 4 ultimas linhas de um arquivo .txt
+11 - apague todos os arquivos terminados em .txt
 
 
 ### History da minha resolução
@@ -74,6 +87,18 @@
 ##  Parte II - Manipulação & Busca
 
 ### Exercícios
+Um resumo básico do que foi pedido nos exercicios
+
+1 - Baixe um arquivo através do comando curl
+2 - mostre todo o conteúdo dentro de um arquivo .txt
+3 - encontre uma palavra dentro de um arquivo .txt
+4 - busque por uma palavra utilizando o lower case
+5 - busque por frases que não contenham a palavra fox
+6 - conte o numero de palavras de um .txt
+7 - conte o numero de linhas de um .txt
+8 - crie arquivos que terminam em .pdf e .tbt
+9 - liste arquivos terminados em tbt e txt
+9 - qual o manual do comando ls?
 
 
 ### History da minha resolução
