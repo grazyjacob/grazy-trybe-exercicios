@@ -204,14 +204,54 @@ console.log(lucro)
 }
 
 //11//
-let salBruto = 5000 ;
-let salLiq = null;
-if (salBruto <= 1556,94){
-console.log(salBruto + 2/25);
-} else if (salBruto > 1556,95 && salBruto < 2594,92){
-console.log(salBruto + 9/100);
-} else if (salBruto > 2594,93 && salBruto < 5189,82){
-console.log(salBruto + 11/100);
-} else if (salBruto > 5189,82) {
-console.log(salBruto + 570,88)
+let salBruto = 3000 ;
+let descontos = null;
+let salBase = salBruto - descontos;
+let descontosTotais = null;
+let salLiq = salBase - descontosTotais;
+
+
+
+//INSS//
+if (salBruto <= 1556.94){
+descontos = salBruto * 8/100;
+} else if (salBruto > 1556.95 && salBruto < 2594.92){
+descontos = salBruto * 9/100;
+} else if (salBruto > 2594.93 && salBruto < 5189.82){
+descontos = salBruto * 11/100;
+} else if (salBruto > 5189.82) {
+descontos = salBruto - 570.88;
 }
+
+
+//IR//
+if (salBase < 1903.98){
+    descontosTotais = salBase + 0 + descontos;
+}else if (salBase > 1903.99 && salBase < 2806.65){
+    descontosTotais = salBase * 7.5/100 - 142,80;
+} else if (salBase > 2826.66 && salBase < 3751.05){
+    descontosTotais = salBase * 15/100 -354.80;
+}else if (salBase > 3751.06 && salBase < 4664.68 ) {
+    descontosTotais = salBase * 22.5/100 - 636.13;
+} else if (salBase > 4664,68){
+    descontosTotais = salBase * 27.5/100 - 869.36;
+}
+
+console.log (salLiq);
+
+/*
+
+
+Exemplo: Uma pessoa possui o salário bruto de R$ 3.000,00. O cálculo será:
+
+O salário bruto está entre R$ 2.594,93 e R$ 5.189,82, então sua alíquota para INSS é de 11%. O INSS será 11% de R$ 3.000, ou seja, R$ 330,00.
+Para descobrir o salário-base, subtraia do salário bruto a alíquota do INSS: R$ 3.000,00 - R$ 330,00 = R$ 2.670,00.
+Para pegar o valor do IR, temos um salário (já deduzido o INSS) entre R$ 1.903,99 e 2.826,65, sendo a alíquota, então, de 7.5%, com parcela de R$ 142,80 a deduzir do imposto. Assim, temos:
+R$ 2.670,00: salário com INSS já deduzido;
+
+7.5%: alíquota de imposto de renda;
+R$ 142,80 parcela a se deduzir do imposto.
+Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R$ 57,45
+
+O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
+Resultado: R$ 2.612,55.*/
