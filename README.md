@@ -14,25 +14,25 @@ Contém todas as atividades desenvolvidas por mim durante minha tragetória na T
  ✅1.3 - [Unix & Bash - Parte 1](https://github.com/grazyjacob/grazy-trybe-exercicios/tree/main/01-Fundamentos-do-Desenvolvimento-Web/B1-Unix-Bash#parte-i---cria%C3%A7%C3%A3o-de-arquivos-e-diret%C3%B3rios)                                                                                             
  ✅1.4 - [Unix & Bash - Parte 2](https://github.com/grazyjacob/grazy-trybe-exercicios/blob/main/01-Fundamentos-do-Desenvolvimento-Web/B1-Unix-Bash/README.md#parte-ii---manipula%C3%A7%C3%A3o--busca)
  
-### Bloco 2: Git, GitHub e Internet⏳
+### Bloco 2: Git, GitHub e Internet✅
  ✅2.1 - Git & GitHub - O que é e para que serve  
  ✅2.2 - Git & GitHub - Entendendo os comandos  
- ⏳2.3 - Internet - Entendendo como ela funciona  
+ ✅2.3 - Internet - Entendendo como ela funciona  
 
-### Bloco 3: Introdução à HTML e CSS
- 3.1 - Introdução - HTML & CSS  
- 3.1 - HTML & CSS - Estruturas de página  
- 3.2 - HTML & CSS - Primeiros passos em CSS  
- 3.3 - HTML & CSS - Seletores e posicionamento  
- 3.4 - HTML Semântico  
- 3.5 - Projeto - Lessons Learned  
+### Bloco 3: Introdução à HTML e CSS✅
+ ✅3.1 - Introdução - HTML & CSS  
+ ✅3.1 - HTML & CSS - Estruturas de página  
+ ✅3.2 - HTML & CSS - Primeiros passos em CSS  
+ ✅3.3 - HTML & CSS - Seletores e posicionamento  
+ ✅3.4 - HTML Semântico  
+ ✅3.5 - Projeto - Lessons Learned  
 
-### Bloco 4: Introdução à JavaScript e Lógica de Programação
- 4.1 - Introdução - JavaScript  
- 4.1 - JavaScript - Primeiros passos  
- 4.2 - JavaScript - Array e loop For  
- 4.3 - JavaScript - Lógica de Programação e Algoritmos  
- 4.4 - JavaScript - Objetos e funções  
+### Bloco 4: Introdução à JavaScript e Lógica de Programação⏳
+✅4.1 - Introdução - JavaScript  
+✅4.1 - JavaScript - Primeiros passos  
+✅4.2 - JavaScript - Array e loop For  
+✅4.3 - JavaScript - Lógica de Programação e Algoritmos  
+⏳4.4 - JavaScript - Objetos e funções  
  4.5 - Projeto - Playground Functions  
 
 ### Bloco 5: JavaScript: DOM, Eventos e Web Storage
