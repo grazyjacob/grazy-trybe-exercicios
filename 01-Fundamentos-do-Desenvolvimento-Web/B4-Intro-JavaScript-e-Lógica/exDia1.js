@@ -81,6 +81,18 @@ let multiplicacao = num1 * num2;
 let divisao = num1 / num2;
 let modulo = num1 % num2;
 console.log(adicao);
+//1.1 Implemente o function
+function calculadora(num1,num2) {
+    let adicao = num1 + num2;
+    let subtracao = num1 - num2;
+    let multiplicacao = num1 * num2;
+    let divisao = num1 / num2;
+    let modulo = num1 % num2;
+    console.log(' O valor da soma é:' + adicao + "\n",'O valor da subtração é:' + subtracao + "\n", 'O valor da multiplicação é:' +
+    multiplicacao + "\n", 'O valor da divisão é:'+ divisao + "\n", 'O valor do módulo é:' + modulo);
+}
+
+calculadora (2,2)
 
 //2//
 if (a>b){
@@ -88,14 +100,36 @@ if (a>b){
 }else if (a<b){
     console.log (b)
 }
-//3//
-if (a>b&&a>c){
+//2 Implemente o function
+function returnBigger(number1,number2) {
+    if (number1 > number2){
+        console.log (number1);
+    }else if (number1 < number2){
+        console.log (number2)
+    }  
+    
+}
+returnBigger(1,10)
+
+//3// 
+if (a>b && a>c){
     console.log(a);
 } else if (b>a&&b>c){
     console.log (b);
 } else if (c>a&&c>b){
     console.log(c);
 }
+//3 Implemente o function
+function BiggerOfThree (number1, number2, number3){
+    if (number1 > number2 && number1 > number3){
+        console.log(number1);
+    } else if (number2 > number1 && number2 > number3){
+        console.log (number2);
+    } else if (number3 > number1 && number3 > number2){
+        console.log(number3);
+    }   
+}BiggerOfThree(1101,8,200);
+
 //4//
 const valor = null;
 if (valor>=1){
@@ -105,6 +139,22 @@ if (valor>=1){
 } else {
     console.log ("zero");
 }
+//4 Implemente o function
+function positiveOrNegativeOrZero(number) {
+    if (number >= 1) {
+        console.log ('positive')
+    } else if (number < 0) {
+        console.log('negative');
+    } else {
+        console.log('zero');
+    }
+} positiveOrNegativeOrZero(0);
+
+function sum(a, b) {
+    a + b;
+  }
+  console.log(sum(1, 2));
+  
 
 //5//
 const c1 = 100;
