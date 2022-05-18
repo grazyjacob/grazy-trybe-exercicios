@@ -19,7 +19,7 @@ info.recorrente = 'Sim';
 }*/
 
 
-//3 - Faça um for/in que mostre todas as chaves do objeto. 
+//3 - NOT OK Faça um for/in que mostre todas as chaves do objeto. 
 for (let key of info ){
     console.log(info)
 }
