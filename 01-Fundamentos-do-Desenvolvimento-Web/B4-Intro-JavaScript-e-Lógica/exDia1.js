@@ -150,10 +150,7 @@ function positiveOrNegativeOrZero(number) {
     }
 } positiveOrNegativeOrZero(0);
 
-function sum(a, b) {
-    a + b;
-  }
-  console.log(sum(1, 2));
+
   
 
 //5//
